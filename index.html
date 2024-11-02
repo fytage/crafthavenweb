@@ -33,6 +33,7 @@
 
         /* Logo styling */
         .logo {
+            width: 450px;
             margin-bottom: 20px;
         }
 
@@ -40,8 +41,18 @@
             font-size: 3rem;
             margin-bottom: 10px;
             color: #FED9B7;
+            animation: colorChange 5s infinite alternate;
         }
 
+                @keyframes colorChange {
+            0% {
+                color: #FED9B7;
+            }
+            100% {
+                color: #7DE5FF;
+            }
+        }
+        
         p {
             font-size: 1.2rem;
             margin-bottom: 20px;
